@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Practicing aws cd pipeline'));
+app.get('/', (req, res) => res.send('AWS CD Pipeline Created!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
